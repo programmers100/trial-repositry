@@ -1,8 +1,8 @@
 #hello its a trail repo
 #python
-a = int(input("enter your first number"))
+a = input(int("enter your first number"))
 c = input("chose (*,+,-)")
-b= int(input("enter your second number"))
+b= input(int("enter your second number"))
 
 if c =="*":
     print(a*b)
