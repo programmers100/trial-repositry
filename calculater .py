@@ -1,10 +1,11 @@
-hello its a trail repo
+#hello its a trail repo
 #python
-a = input("enter your first number")
-c= input("chose (*,+,-)")
-b= input("enter your second number")
+a = int(input("enter your first number"))
+c = input("chose (*,+,-)")
+b= int(input("enter your second number"))
+
 if c =="*":
     print(a*b)
-if c =="+":
+elif c =="+":
     print(a+b)
     
